@@ -20,7 +20,10 @@ namespace Monster
     {
         private IInput _input;
         private IMovement _movement;
+        private Animator _animator;
+
         public MonsterSettings _settings;
+
 
         private State _state;
 
@@ -29,6 +32,7 @@ namespace Monster
             _input = new Input(transform);
             _movement = new Movement(GetComponent<Rigidbody2D>());
             _state = State.Idle;
+            _animator = GetComponentInChildren<Animator>();
         }
 
         // Update is called once per frame
@@ -46,6 +50,8 @@ namespace Monster
                 case State.Idle:
                     stop();
 
+                    _animator.SetBool("Walking", false);
+
                     if (_input.GetAxis().magnitude > valueToChange)
                     {
                         _state = State.Moving;
@@ -54,14 +60,14 @@ namespace Monster
                 case State.Moving:
                     move();
 
+                    _animator.SetBool("Walking", true);
+
                     if (_input.GetAxis().magnitude <= valueToChange)
                     {
                         _state = State.Idle;
                     }
                     break;
             }
-
-            Debug.Log(_state);
         }
 
         private void move()
