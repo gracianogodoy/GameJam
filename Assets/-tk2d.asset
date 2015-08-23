@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41cb500cf0f58e74f9a52a8af931edde, type: 3}
+  m_Name: -tk2d
+  m_EditorClassIdentifier: 
+  version: 4
+  spriteAnimationIndex: []
+  fontIndex: []
+  spriteCollectionIndex:
+  - name: BgCollection
+    spriteCollectionGUID: c564ecb80d1cc6e4794cfa21296993f4
+    spriteCollectionDataGUID: 6d4a7c9d24edf504fa9278ca56e972e8
+    spriteNames:
+    - Estrada
+    - "Ch\xE3o"
+    - portais
+    - Muro-beirada
+    - Muro-meio
+    - telha-canto-1
+    - telha-canto-1-sombreada
+    - telha-canto-2
+    - telha-canto-2sombreada
+    - telha-meio.sombreadapng
+    - telha-meio
+    spriteTextureGUIDs:
+    - a736ad75c6f587a4f8ffb079872676ef
+    - 9a5d2b07ec60195468d69df4d97bcac5
+    - b37a6419e75782849a4f1aea4edd2b47
+    - c0c94e8a2779f1646b619e0cc0c81439
+    - f32ae1bf5c62358449b3fddcd73b69e8
+    - 89b1560fde70c7b4ba798674760f3983
+    - 230d1f72e2440be4d9c1952d8b05f9a9
+    - 5383b27ee815b71428b07bcc4531b5bc
+    - 877f98576e6ac66469e2bcd0eee86345
+    - 793748431ed4e8e4da84c46752d9e43d
+    - 290ef80a9ef4cf8488774b8da9d5249a
+    spriteTextureTimeStamps:
+    - 1440288672
+    - 1440288734
+    - 1440289280
+    - 1440288730
+    - 1440288728
+    - 1440288488
+    - 1440288502
+    - 1440288596
+    - 1440288604
+    - 1440288554
+    - 1440288546
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
