@@ -1886,9 +1886,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   editorDataGUID: 064889b074b0b1f45b06b5cdecafd3ca
-  data: {fileID: 11400000, guid: 4b6de59a1c211ad43b36e27c64680f60, type: 2}
+  data: {fileID: 0}
   renderData: {fileID: 1110593406}
-  spriteCollection: {fileID: 11473344, guid: 6d4a7c9d24edf504fa9278ca56e972e8, type: 2}
+  spriteCollection: {fileID: 0}
   spriteCollectionKey: 1518699019
   width: 128
   height: 128
