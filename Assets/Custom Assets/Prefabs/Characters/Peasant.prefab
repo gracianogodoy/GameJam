@@ -41,7 +41,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 105058}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.22600007, y: -1.13100004, z: 0}
+  m_LocalPosition: {x: -3.03999996, y: 1.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 490448}
@@ -74,7 +74,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!58 &5858938
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -101,10 +101,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Settings:
     Speed: 1
+    DistanceToRun: 1.5
     LayerMask:
       serializedVersion: 2
       m_Bits: 1280
-    CheckDistance: .600000024
+    DistanceToCheck: .600000024
+    Monster: {fileID: 0}
   IsColliding: 0
 --- !u!212 &21249880
 SpriteRenderer:
