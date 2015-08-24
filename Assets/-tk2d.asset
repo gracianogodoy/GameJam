@@ -15,169 +15,84 @@ MonoBehaviour:
   spriteAnimationIndex: []
   fontIndex: []
   spriteCollectionIndex:
-  - name: BgCollection
-    spriteCollectionGUID: c564ecb80d1cc6e4794cfa21296993f4
-    spriteCollectionDataGUID: 6d4a7c9d24edf504fa9278ca56e972e8
+  - name: Bg
+    spriteCollectionGUID: ca9ee1974921302409b2c8d7aaceeed5
+    spriteCollectionDataGUID: d2a63833940eff345bdfbab2cb8ac029
     spriteNames:
-    - Estrada
-    - "Ch\xE3o"
-    - portais
-    - Muro-beirada
-    - Muro-meio
-    - telha-canto-1
-    - telha-canto-1-sombreada
-    - telha-canto-2
-    - telha-canto-2sombreada
-    - telha-meio
-    - telha-meio.sombreadapng
-    - grama1
-    - grama2
-    - grama3
-    - grama4
-    - grama6
-    - grama5
-    - grama8
-    - grama9
-    - grama11
-    - grama13
-    - grama7
-    - grama12
-    - grama10
-    spriteTextureGUIDs:
-    - a736ad75c6f587a4f8ffb079872676ef
-    - 9a5d2b07ec60195468d69df4d97bcac5
-    - b37a6419e75782849a4f1aea4edd2b47
-    - c0c94e8a2779f1646b619e0cc0c81439
-    - f32ae1bf5c62358449b3fddcd73b69e8
-    - 20d4a0d201e9fd246a21acb1f9ab555d
-    - ee58ddf2f8a7ac74883b92c87bcbaafd
-    - cd05d4a3ea9eaff49b84dc7d4a6b285b
-    - ae92333b93c38424fbea0208dce4334c
-    - 10e37b8b4f37a4244bdd6e9c8ad32c27
-    - 94d94e6c9f359e546b17fb5f958dedd2
-    - 28ab5ef92eb6de445b15fa49a3513d1b
-    - d080b9bfcbbfcb44eb46738217c91058
-    - aac4f7012414be54aba7400b3f0ed1f5
-    - 89dbd903ec88cdd4eb27c36e4813d2bb
-    - f35fb37365b348a46bea1637b812baf3
-    - a85d1a74f7ca07a48b320648919f1fe0
-    - bbfc605594c7003409c6530f7d614e9f
-    - b53be00987935ec48a818edb43934973
-    - faa25d892076d0648adb193dbe3852cf
-    - c65381bbecb0f0c42898fa495e2aa5fd
-    - 87d5c5adfa33b56458937229a116abc2
-    - 0d2093ce9e0bcad429434c6ef53ddb1d
-    - f3bc9daf87503864c949a9e80398a166
-    spriteTextureTimeStamps:
-    - 1440346245.48444
-    - 1440346245.45341
-    - 1440346245.49444
-    - 1440346245.48844
-    - 1440346245.49344
-    - 1440444417.40717
-    - 1440346245.53747
-    - 1440444417.41218
-    - 1440346245.54248
-    - 1440346245.54548
-    - 1440346245.54848
-    - 1440444417.34963
-    - 1440444417.36765
-    - 1440444417.37365
-    - 1440444417.37816
-    - 1440444417.38566
-    - 1440444417.38166
-    - 1440444417.39417
-    - 1440444417.39817
-    - 1440444417.35666
-    - 1440444417.36365
-    - 1440444417.38966
-    - 1440444417.36066
-    - 1440444417.35314
-    managedSpriteCollection: 0
-    loadable: 0
-    assetName: 
-    version: 3
-  - name: BgCollection
-    spriteCollectionGUID: c564ecb80d1cc6e4794cfa21296993f4
-    spriteCollectionDataGUID: 0247cfcd92577f6448c5f4e65a1a4a4a
-    spriteNames:
-    - Estrada
-    - "Ch\xE3o"
-    - portais
-    - Muro-beirada
-    - Muro-meio
-    - telha-canto-1
-    - telha-canto-1-sombreada
-    - telha-canto-2
-    - telha-canto-2sombreada
-    - telha-meio
-    - telha-meio.sombreadapng
-    - grama1
-    - grama2
-    - grama3
-    - grama4
-    - grama6
-    - grama5
-    - grama8
-    - grama9
-    - grama11
-    - grama13
-    - grama7
-    - grama12
-    - grama10
     - grama-canto
+    - grama1
+    - grama3
+    - grama2
+    - grama4
+    - grama5
+    - grama6
+    - grama7
+    - grama8
+    - grama9
+    - grama10
+    - grama11
+    - grama12
+    - grama13
+    - Muro-beirada
+    - Muro-meio
+    - portais
+    - telha-canto-1-sombreada
+    - telha-meio.sombreadapng
+    - telha-canto-1
+    - telha-canto-2
+    - telha-canto-2sombreada
+    - telha-meio
+    - "Ch\xE3o"
     spriteTextureGUIDs:
-    - a736ad75c6f587a4f8ffb079872676ef
-    - 9a5d2b07ec60195468d69df4d97bcac5
-    - b37a6419e75782849a4f1aea4edd2b47
+    - a5ab280cbe7daf54aa8b9501e7cea17c
+    - 28ab5ef92eb6de445b15fa49a3513d1b
+    - aac4f7012414be54aba7400b3f0ed1f5
+    - d080b9bfcbbfcb44eb46738217c91058
+    - 89dbd903ec88cdd4eb27c36e4813d2bb
+    - a85d1a74f7ca07a48b320648919f1fe0
+    - f35fb37365b348a46bea1637b812baf3
+    - 87d5c5adfa33b56458937229a116abc2
+    - bbfc605594c7003409c6530f7d614e9f
+    - b53be00987935ec48a818edb43934973
+    - f3bc9daf87503864c949a9e80398a166
+    - faa25d892076d0648adb193dbe3852cf
+    - 0d2093ce9e0bcad429434c6ef53ddb1d
+    - c65381bbecb0f0c42898fa495e2aa5fd
     - c0c94e8a2779f1646b619e0cc0c81439
     - f32ae1bf5c62358449b3fddcd73b69e8
-    - 20d4a0d201e9fd246a21acb1f9ab555d
+    - b37a6419e75782849a4f1aea4edd2b47
     - ee58ddf2f8a7ac74883b92c87bcbaafd
+    - 94d94e6c9f359e546b17fb5f958dedd2
+    - 20d4a0d201e9fd246a21acb1f9ab555d
     - cd05d4a3ea9eaff49b84dc7d4a6b285b
     - ae92333b93c38424fbea0208dce4334c
     - 10e37b8b4f37a4244bdd6e9c8ad32c27
-    - 94d94e6c9f359e546b17fb5f958dedd2
-    - 28ab5ef92eb6de445b15fa49a3513d1b
-    - d080b9bfcbbfcb44eb46738217c91058
-    - aac4f7012414be54aba7400b3f0ed1f5
-    - 89dbd903ec88cdd4eb27c36e4813d2bb
-    - f35fb37365b348a46bea1637b812baf3
-    - a85d1a74f7ca07a48b320648919f1fe0
-    - bbfc605594c7003409c6530f7d614e9f
-    - b53be00987935ec48a818edb43934973
-    - faa25d892076d0648adb193dbe3852cf
-    - c65381bbecb0f0c42898fa495e2aa5fd
-    - 87d5c5adfa33b56458937229a116abc2
-    - 0d2093ce9e0bcad429434c6ef53ddb1d
-    - f3bc9daf87503864c949a9e80398a166
-    - a5ab280cbe7daf54aa8b9501e7cea17c
+    - e0329fdfa8097c44c994dfff4629db01
     spriteTextureTimeStamps:
-    - 1440288672
-    - 1440288734
-    - 1440289280
+    - 1440446812.01702
+    - 1440374370
+    - 1440374458
+    - 1440374400
+    - 1440374486
+    - 1440374754
+    - 1440374574
+    - 1440374602
+    - 1440374624
+    - 1440374642
+    - 1440374668
+    - 1440374688
+    - 1440374714
+    - 1440374732
     - 1440288730
     - 1440288728
-    - 1440444108.27685
+    - 1440289280
     - 1440288502
+    - 1440288554
+    - 1440444108.27685
     - 1440359924
     - 1440288604
     - 1440288546
-    - 1440288554
-    - 1440374370
-    - 1440374400
-    - 1440374458
-    - 1440374486
-    - 1440374574
-    - 1440374754
-    - 1440374624
-    - 1440374642
-    - 1440374688
-    - 1440374732
-    - 1440374602
-    - 1440374714
-    - 1440374668
-    - 1440446812.01702
+    - 1440448116.56296
     managedSpriteCollection: 0
     loadable: 0
     assetName: 
